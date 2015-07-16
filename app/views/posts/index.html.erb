@@ -5,7 +5,7 @@
         <th>Heading</th>
         <th>Price</th>
         <th>Neighborhood</th>
-        <th>Timestamp</th>
+        <th>Last Updated</th>
       </tr>
     </thead>
 
@@ -21,6 +21,7 @@
     </tbody>
   </table>
 
+<%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
 
   <br>
 
